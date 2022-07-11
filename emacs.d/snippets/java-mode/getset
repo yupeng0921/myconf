@@ -1,0 +1,12 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: getset
+# key: gs
+# --
+
+public ${1:int} get${2:Field}() {
+        return ${3:field};
+}
+
+public void set$2($1 $3) {
+        this.$3 = $3;
+}

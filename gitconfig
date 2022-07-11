@@ -1,0 +1,23 @@
+[user]
+    email = yupeng0921@gmail.com
+    name = yupeng
+[color]
+    ui = auto
+[push]
+    default = simple
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+[sendemail]
+    from = yupeng <yupeng0921@gmail.com>
+    smtpserver = smtp.gmail.com
+    smtpuser = yupeng0921@gmail.com
+    smtpencryption = tls
+    smtppass = xxx
+    chainreplyto = false
+    smtpserverport = 587
+    suppresscc = self
+[grep]
+    extendedRegexp = true
